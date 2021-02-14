@@ -4,6 +4,8 @@ I found in pijul (a version control system).
 
 ## Versions
 
+| Name | Version |
+|------|---------|
 | OS | Ubuntu 20.04 |
 | Pijul | 1.0.0-alpha.38 |
 | rustup | 1.23.1 |
