@@ -12,16 +12,6 @@ On the main channel, if you apply that change, the second line of text doesn't
 show up until you do `pijul reset`. You shouldn't have to do `pijul reset`, it
 is supposed to show up right away.
 
-## Versions
-
-| Name | Version |
-|------|---------|
-| OS | Ubuntu 20.04 |
-| Pijul | 1.0.0-alpha.38 |
-| rustup | 1.23.1 |
-| rustc | 1.50.0 |
-| cargo | 1.50.0 |
-
 # Reproduction Steps
 
 1. `docker pull docker.pkg.github.com/tucker-m/pijul-bug-repro/reset-before-apply:1`.
@@ -34,3 +24,14 @@ is supposed to show up right away.
 6. `cat somefile` to see that the file is still unchanged.
 7. `pijul reset`
 8. `cat somefile` again to see that there is now another line in the file.
+
+# Versions
+
+| Name | Version |
+|------|---------|
+| OS | Ubuntu 20.04 |
+| Pijul | 1.0.0-alpha.38 |
+| rustup | 1.23.1 |
+| rustc | 1.50.0 |
+| cargo | 1.50.0 |
+
